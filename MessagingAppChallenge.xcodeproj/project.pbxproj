@@ -20,6 +20,10 @@
 		10BDF2CC28714B3F007AE9BD /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BDF2CB28714B3F007AE9BD /* MessageView.swift */; };
 		10BDF2CF28714C9A007AE9BD /* MockDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BDF2CE28714C9A007AE9BD /* MockDataManager.swift */; };
 		10BDF2D42871C5E2007AE9BD /* MarcsMessageWebSocketClient in Frameworks */ = {isa = PBXBuildFile; productRef = 10BDF2D32871C5E2007AE9BD /* MarcsMessageWebSocketClient */; };
+		10BDF36128726243007AE9BD /* StreetHawkCore_Pointzi in Frameworks */ = {isa = PBXBuildFile; productRef = 10BDF36028726243007AE9BD /* StreetHawkCore_Pointzi */; };
+		10BDF36428726253007AE9BD /* StreetHawkCore_Pointzi in Frameworks */ = {isa = PBXBuildFile; productRef = 10BDF36328726253007AE9BD /* StreetHawkCore_Pointzi */; };
+		10BDF36728726277007AE9BD /* PointziSPMWrapper in Frameworks */ = {isa = PBXBuildFile; productRef = 10BDF36628726277007AE9BD /* PointziSPMWrapper */; };
+		10BDF369287263F5007AE9BD /* Pointzi.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 10BDF368287263F5007AE9BD /* Pointzi.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +59,7 @@
 		10BDF2C9287146B7007AE9BD /* MessageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageModel.swift; sourceTree = "<group>"; };
 		10BDF2CB28714B3F007AE9BD /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
 		10BDF2CE28714C9A007AE9BD /* MockDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDataManager.swift; sourceTree = "<group>"; };
+		10BDF368287263F5007AE9BD /* Pointzi.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Pointzi.bundle; path = ../../Downloads/Pointzi.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +68,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				10BDF2D42871C5E2007AE9BD /* MarcsMessageWebSocketClient in Frameworks */,
+				10BDF36128726243007AE9BD /* StreetHawkCore_Pointzi in Frameworks */,
+				10BDF36428726253007AE9BD /* StreetHawkCore_Pointzi in Frameworks */,
+				10BDF36728726277007AE9BD /* PointziSPMWrapper in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +97,7 @@
 				10BDF2962871440E007AE9BD /* MessagingAppChallenge */,
 				10BDF2A728714412007AE9BD /* MessagingAppChallengeTests */,
 				10BDF2B128714412007AE9BD /* MessagingAppChallengeUITests */,
+				10BDF368287263F5007AE9BD /* Pointzi.bundle */,
 				10BDF2952871440E007AE9BD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -186,6 +195,9 @@
 			name = MessagingAppChallenge;
 			packageProductDependencies = (
 				10BDF2D32871C5E2007AE9BD /* MarcsMessageWebSocketClient */,
+				10BDF36028726243007AE9BD /* StreetHawkCore_Pointzi */,
+				10BDF36328726253007AE9BD /* StreetHawkCore_Pointzi */,
+				10BDF36628726277007AE9BD /* PointziSPMWrapper */,
 			);
 			productName = MessagingAppChallenge;
 			productReference = 10BDF2942871440E007AE9BD /* MessagingAppChallenge.app */;
@@ -261,6 +273,9 @@
 			mainGroup = 10BDF28B2871440E007AE9BD;
 			packageReferences = (
 				10BDF2D22871C5E2007AE9BD /* XCRemoteSwiftPackageReference "MarcsMessageWebSocketClient" */,
+				10BDF35F28726243007AE9BD /* XCRemoteSwiftPackageReference "swiftpackage" */,
+				10BDF36228726253007AE9BD /* XCRemoteSwiftPackageReference "swiftpackage" */,
+				10BDF36528726277007AE9BD /* XCRemoteSwiftPackageReference "pointzispmwrapper" */,
 			);
 			productRefGroup = 10BDF2952871440E007AE9BD /* Products */;
 			projectDirPath = "";
@@ -279,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				10BDF29F28714411007AE9BD /* Preview Assets.xcassets in Resources */,
+				10BDF369287263F5007AE9BD /* Pointzi.bundle in Resources */,
 				10BDF29C28714411007AE9BD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -397,7 +413,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -451,7 +467,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -645,6 +661,30 @@
 				kind = branch;
 			};
 		};
+		10BDF35F28726243007AE9BD /* XCRemoteSwiftPackageReference "swiftpackage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://gitlab.com/pointzi/sdks/swiftpackage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		10BDF36228726253007AE9BD /* XCRemoteSwiftPackageReference "swiftpackage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://gitlab.com/pointzi/sdks/swiftpackage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		10BDF36528726277007AE9BD /* XCRemoteSwiftPackageReference "pointzispmwrapper" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://gitlab.com/pointzi/sdks/pointzispmwrapper";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -652,6 +692,21 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 10BDF2D22871C5E2007AE9BD /* XCRemoteSwiftPackageReference "MarcsMessageWebSocketClient" */;
 			productName = MarcsMessageWebSocketClient;
+		};
+		10BDF36028726243007AE9BD /* StreetHawkCore_Pointzi */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 10BDF35F28726243007AE9BD /* XCRemoteSwiftPackageReference "swiftpackage" */;
+			productName = StreetHawkCore_Pointzi;
+		};
+		10BDF36328726253007AE9BD /* StreetHawkCore_Pointzi */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 10BDF35F28726243007AE9BD /* XCRemoteSwiftPackageReference "swiftpackage" */;
+			productName = StreetHawkCore_Pointzi;
+		};
+		10BDF36628726277007AE9BD /* PointziSPMWrapper */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 10BDF36528726277007AE9BD /* XCRemoteSwiftPackageReference "pointzispmwrapper" */;
+			productName = PointziSPMWrapper;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

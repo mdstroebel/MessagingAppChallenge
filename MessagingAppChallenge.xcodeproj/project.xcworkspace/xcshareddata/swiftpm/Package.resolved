@@ -1,6 +1,15 @@
 {
   "pins" : [
     {
+      "identity" : "cocoalumberjack",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/CocoaLumberjack/CocoaLumberjack.git",
+      "state" : {
+        "revision" : "80ada1f753b0d53d9b57c465936a7c4169375002",
+        "version" : "3.7.4"
+      }
+    },
+    {
       "identity" : "marcsmessagewebsocketclient",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/mdstroebel/MarcsMessageWebSocketClient",
@@ -10,12 +19,57 @@
       }
     },
     {
+      "identity" : "paper-onboarding",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/StreetHawkInc/paper-onboarding.git",
+      "state" : {
+        "revision" : "6560d98adc70c62d015f0292fbaf000527e413f2",
+        "version" : "2.0.6"
+      }
+    },
+    {
+      "identity" : "pointzispmwrapper",
+      "kind" : "remoteSourceControl",
+      "location" : "https://gitlab.com/pointzi/sdks/pointzispmwrapper",
+      "state" : {
+        "revision" : "dff9ad2ab962cf4ad2c5249f7740d33c1eb163ca",
+        "version" : "1.0.0"
+      }
+    },
+    {
       "identity" : "starscream",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/daltoniam/Starscream.git",
       "state" : {
         "revision" : "df8d82047f6654d8e4b655d1b1525c64e1059d21",
         "version" : "4.0.4"
+      }
+    },
+    {
+      "identity" : "svgkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SVGKit/SVGKit",
+      "state" : {
+        "revision" : "58152b9f7c85eab239160b36ffdfd364aa43d666",
+        "version" : "3.0.0"
+      }
+    },
+    {
+      "identity" : "swift-log",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-log.git",
+      "state" : {
+        "revision" : "5d66f7ba25daf4f94100e7022febf3c75e37a6c7",
+        "version" : "1.4.2"
+      }
+    },
+    {
+      "identity" : "swiftpackage",
+      "kind" : "remoteSourceControl",
+      "location" : "https://gitlab.com/pointzi/sdks/swiftpackage.git",
+      "state" : {
+        "revision" : "54752990bbd235d1b19e069bdb5fd653741c9a80",
+        "version" : "2.9.0"
       }
     }
   ],
