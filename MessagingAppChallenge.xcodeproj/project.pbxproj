@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10BDF2982871440E007AE9BD /* MessagingAppChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BDF2972871440E007AE9BD /* MessagingAppChallengeApp.swift */; };
+		10BDF29A2871440E007AE9BD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BDF2992871440E007AE9BD /* ContentView.swift */; };
+		10BDF29C28714411007AE9BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10BDF29B28714411007AE9BD /* Assets.xcassets */; };
+		10BDF29F28714411007AE9BD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10BDF29E28714411007AE9BD /* Preview Assets.xcassets */; };
+		10BDF2A928714412007AE9BD /* MessagingAppChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BDF2A828714412007AE9BD /* MessagingAppChallengeTests.swift */; };
+		10BDF2B328714412007AE9BD /* MessagingAppChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BDF2B228714412007AE9BD /* MessagingAppChallengeUITests.swift */; };
+		10BDF2B528714412007AE9BD /* MessagingAppChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BDF2B428714412007AE9BD /* MessagingAppChallengeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		10BDF2A528714412007AE9BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10BDF28C2871440E007AE9BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10BDF2932871440E007AE9BD;
+			remoteInfo = MessagingAppChallenge;
+		};
+		10BDF2AF28714412007AE9BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10BDF28C2871440E007AE9BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10BDF2932871440E007AE9BD;
+			remoteInfo = MessagingAppChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10BDF2942871440E007AE9BD /* MessagingAppChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MessagingAppChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10BDF2972871440E007AE9BD /* MessagingAppChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagingAppChallengeApp.swift; sourceTree = "<group>"; };
+		10BDF2992871440E007AE9BD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		10BDF29B28714411007AE9BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		10BDF29E28714411007AE9BD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		10BDF2A428714412007AE9BD /* MessagingAppChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MessagingAppChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		10BDF2A828714412007AE9BD /* MessagingAppChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagingAppChallengeTests.swift; sourceTree = "<group>"; };
+		10BDF2AE28714412007AE9BD /* MessagingAppChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MessagingAppChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		10BDF2B228714412007AE9BD /* MessagingAppChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagingAppChallengeUITests.swift; sourceTree = "<group>"; };
+		10BDF2B428714412007AE9BD /* MessagingAppChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagingAppChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10BDF2912871440E007AE9BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10BDF2A128714412007AE9BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10BDF2AB28714412007AE9BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10BDF28B2871440E007AE9BD = {
+			isa = PBXGroup;
+			children = (
+				10BDF2962871440E007AE9BD /* MessagingAppChallenge */,
+				10BDF2A728714412007AE9BD /* MessagingAppChallengeTests */,
+				10BDF2B128714412007AE9BD /* MessagingAppChallengeUITests */,
+				10BDF2952871440E007AE9BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		10BDF2952871440E007AE9BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10BDF2942871440E007AE9BD /* MessagingAppChallenge.app */,
+				10BDF2A428714412007AE9BD /* MessagingAppChallengeTests.xctest */,
+				10BDF2AE28714412007AE9BD /* MessagingAppChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10BDF2962871440E007AE9BD /* MessagingAppChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				10BDF2972871440E007AE9BD /* MessagingAppChallengeApp.swift */,
+				10BDF2992871440E007AE9BD /* ContentView.swift */,
+				10BDF29B28714411007AE9BD /* Assets.xcassets */,
+				10BDF29D28714411007AE9BD /* Preview Content */,
+			);
+			path = MessagingAppChallenge;
+			sourceTree = "<group>";
+		};
+		10BDF29D28714411007AE9BD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				10BDF29E28714411007AE9BD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		10BDF2A728714412007AE9BD /* MessagingAppChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				10BDF2A828714412007AE9BD /* MessagingAppChallengeTests.swift */,
+			);
+			path = MessagingAppChallengeTests;
+			sourceTree = "<group>";
+		};
+		10BDF2B128714412007AE9BD /* MessagingAppChallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				10BDF2B228714412007AE9BD /* MessagingAppChallengeUITests.swift */,
+				10BDF2B428714412007AE9BD /* MessagingAppChallengeUITestsLaunchTests.swift */,
+			);
+			path = MessagingAppChallengeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10BDF2932871440E007AE9BD /* MessagingAppChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10BDF2B828714412007AE9BD /* Build configuration list for PBXNativeTarget "MessagingAppChallenge" */;
+			buildPhases = (
+				10BDF2902871440E007AE9BD /* Sources */,
+				10BDF2912871440E007AE9BD /* Frameworks */,
+				10BDF2922871440E007AE9BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MessagingAppChallenge;
+			productName = MessagingAppChallenge;
+			productReference = 10BDF2942871440E007AE9BD /* MessagingAppChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		10BDF2A328714412007AE9BD /* MessagingAppChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10BDF2BB28714412007AE9BD /* Build configuration list for PBXNativeTarget "MessagingAppChallengeTests" */;
+			buildPhases = (
+				10BDF2A028714412007AE9BD /* Sources */,
+				10BDF2A128714412007AE9BD /* Frameworks */,
+				10BDF2A228714412007AE9BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10BDF2A628714412007AE9BD /* PBXTargetDependency */,
+			);
+			name = MessagingAppChallengeTests;
+			productName = MessagingAppChallengeTests;
+			productReference = 10BDF2A428714412007AE9BD /* MessagingAppChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		10BDF2AD28714412007AE9BD /* MessagingAppChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10BDF2BE28714412007AE9BD /* Build configuration list for PBXNativeTarget "MessagingAppChallengeUITests" */;
+			buildPhases = (
+				10BDF2AA28714412007AE9BD /* Sources */,
+				10BDF2AB28714412007AE9BD /* Frameworks */,
+				10BDF2AC28714412007AE9BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10BDF2B028714412007AE9BD /* PBXTargetDependency */,
+			);
+			name = MessagingAppChallengeUITests;
+			productName = MessagingAppChallengeUITests;
+			productReference = 10BDF2AE28714412007AE9BD /* MessagingAppChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10BDF28C2871440E007AE9BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					10BDF2932871440E007AE9BD = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					10BDF2A328714412007AE9BD = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 10BDF2932871440E007AE9BD;
+					};
+					10BDF2AD28714412007AE9BD = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 10BDF2932871440E007AE9BD;
+					};
+				};
+			};
+			buildConfigurationList = 10BDF28F2871440E007AE9BD /* Build configuration list for PBXProject "MessagingAppChallenge" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 10BDF28B2871440E007AE9BD;
+			productRefGroup = 10BDF2952871440E007AE9BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10BDF2932871440E007AE9BD /* MessagingAppChallenge */,
+				10BDF2A328714412007AE9BD /* MessagingAppChallengeTests */,
+				10BDF2AD28714412007AE9BD /* MessagingAppChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10BDF2922871440E007AE9BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10BDF29F28714411007AE9BD /* Preview Assets.xcassets in Resources */,
+				10BDF29C28714411007AE9BD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10BDF2A228714412007AE9BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10BDF2AC28714412007AE9BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10BDF2902871440E007AE9BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10BDF29A2871440E007AE9BD /* ContentView.swift in Sources */,
+				10BDF2982871440E007AE9BD /* MessagingAppChallengeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10BDF2A028714412007AE9BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10BDF2A928714412007AE9BD /* MessagingAppChallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10BDF2AA28714412007AE9BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10BDF2B328714412007AE9BD /* MessagingAppChallengeUITests.swift in Sources */,
+				10BDF2B528714412007AE9BD /* MessagingAppChallengeUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10BDF2A628714412007AE9BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10BDF2932871440E007AE9BD /* MessagingAppChallenge */;
+			targetProxy = 10BDF2A528714412007AE9BD /* PBXContainerItemProxy */;
+		};
+		10BDF2B028714412007AE9BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10BDF2932871440E007AE9BD /* MessagingAppChallenge */;
+			targetProxy = 10BDF2AF28714412007AE9BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10BDF2B628714412007AE9BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		10BDF2B728714412007AE9BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10BDF2B928714412007AE9BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MessagingAppChallenge/Preview Content\"";
+				DEVELOPMENT_TEAM = 5N58PPB89T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mdstroebel.MessagingAppChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		10BDF2BA28714412007AE9BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MessagingAppChallenge/Preview Content\"";
+				DEVELOPMENT_TEAM = 5N58PPB89T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mdstroebel.MessagingAppChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		10BDF2BC28714412007AE9BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5N58PPB89T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mdstroebel.MessagingAppChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MessagingAppChallenge.app/MessagingAppChallenge";
+			};
+			name = Debug;
+		};
+		10BDF2BD28714412007AE9BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5N58PPB89T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mdstroebel.MessagingAppChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MessagingAppChallenge.app/MessagingAppChallenge";
+			};
+			name = Release;
+		};
+		10BDF2BF28714412007AE9BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5N58PPB89T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mdstroebel.MessagingAppChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MessagingAppChallenge;
+			};
+			name = Debug;
+		};
+		10BDF2C028714412007AE9BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5N58PPB89T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mdstroebel.MessagingAppChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MessagingAppChallenge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10BDF28F2871440E007AE9BD /* Build configuration list for PBXProject "MessagingAppChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10BDF2B628714412007AE9BD /* Debug */,
+				10BDF2B728714412007AE9BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10BDF2B828714412007AE9BD /* Build configuration list for PBXNativeTarget "MessagingAppChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10BDF2B928714412007AE9BD /* Debug */,
+				10BDF2BA28714412007AE9BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10BDF2BB28714412007AE9BD /* Build configuration list for PBXNativeTarget "MessagingAppChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10BDF2BC28714412007AE9BD /* Debug */,
+				10BDF2BD28714412007AE9BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10BDF2BE28714412007AE9BD /* Build configuration list for PBXNativeTarget "MessagingAppChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10BDF2BF28714412007AE9BD /* Debug */,
+				10BDF2C028714412007AE9BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10BDF28C2871440E007AE9BD /* Project object */;
+}
