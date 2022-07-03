@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import MarcsMessageWebSocketClient
 
 protocol DataManagerProtocol {
     var onMessagesUpdated: (([MessageModel]) -> Void)? { get set }
@@ -20,7 +21,7 @@ class MessageListDataManager {
     
     var onMessagesUpdated: (([MessageModel]) -> Void)?
     
-    private init(client: MessageWebSocketClientProtocol = MessageWebSocketClient(socketUrl: "wss://socketsbay.com/wss/v2/2/demo/")) {
+    private init(client: MessageWebSocketClientProtocol = MessageWebSocketClientUrlSession(socketUrl: "wss://socketsbay.com/wss/v2/2/demo/")) {
         webSocketClient = client
         webSocketClient.subscribeToMessages(with: { [weak self] message in
             guard let self = self else {

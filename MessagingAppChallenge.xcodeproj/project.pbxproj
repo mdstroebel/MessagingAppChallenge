@@ -19,7 +19,7 @@
 		10BDF2CA287146B7007AE9BD /* MessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BDF2C9287146B7007AE9BD /* MessageModel.swift */; };
 		10BDF2CC28714B3F007AE9BD /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BDF2CB28714B3F007AE9BD /* MessageView.swift */; };
 		10BDF2CF28714C9A007AE9BD /* MockDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BDF2CE28714C9A007AE9BD /* MockDataManager.swift */; };
-		10BDF2D128714FE9007AE9BD /* MessageWebSocketClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BDF2D028714FE9007AE9BD /* MessageWebSocketClient.swift */; };
+		10BDF2D42871C5E2007AE9BD /* MarcsMessageWebSocketClient in Frameworks */ = {isa = PBXBuildFile; productRef = 10BDF2D32871C5E2007AE9BD /* MarcsMessageWebSocketClient */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,7 +55,6 @@
 		10BDF2C9287146B7007AE9BD /* MessageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageModel.swift; sourceTree = "<group>"; };
 		10BDF2CB28714B3F007AE9BD /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
 		10BDF2CE28714C9A007AE9BD /* MockDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDataManager.swift; sourceTree = "<group>"; };
-		10BDF2D028714FE9007AE9BD /* MessageWebSocketClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageWebSocketClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10BDF2D42871C5E2007AE9BD /* MarcsMessageWebSocketClient in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,7 +156,6 @@
 			isa = PBXGroup;
 			children = (
 				10BDF2C728714657007AE9BD /* MessageListDataManager.swift */,
-				10BDF2D028714FE9007AE9BD /* MessageWebSocketClient.swift */,
 			);
 			path = DataManager;
 			sourceTree = "<group>";
@@ -185,6 +184,9 @@
 			dependencies = (
 			);
 			name = MessagingAppChallenge;
+			packageProductDependencies = (
+				10BDF2D32871C5E2007AE9BD /* MarcsMessageWebSocketClient */,
+			);
 			productName = MessagingAppChallenge;
 			productReference = 10BDF2942871440E007AE9BD /* MessagingAppChallenge.app */;
 			productType = "com.apple.product-type.application";
@@ -257,6 +259,9 @@
 				Base,
 			);
 			mainGroup = 10BDF28B2871440E007AE9BD;
+			packageReferences = (
+				10BDF2D22871C5E2007AE9BD /* XCRemoteSwiftPackageReference "MarcsMessageWebSocketClient" */,
+			);
 			productRefGroup = 10BDF2952871440E007AE9BD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -301,7 +306,6 @@
 			files = (
 				10BDF2CC28714B3F007AE9BD /* MessageView.swift in Sources */,
 				10BDF29A2871440E007AE9BD /* MessageListView.swift in Sources */,
-				10BDF2D128714FE9007AE9BD /* MessageWebSocketClient.swift in Sources */,
 				10BDF2CA287146B7007AE9BD /* MessageModel.swift in Sources */,
 				10BDF2CF28714C9A007AE9BD /* MockDataManager.swift in Sources */,
 				10BDF2982871440E007AE9BD /* MessagingAppChallengeApp.swift in Sources */,
@@ -631,6 +635,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		10BDF2D22871C5E2007AE9BD /* XCRemoteSwiftPackageReference "MarcsMessageWebSocketClient" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mdstroebel/MarcsMessageWebSocketClient";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		10BDF2D32871C5E2007AE9BD /* MarcsMessageWebSocketClient */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 10BDF2D22871C5E2007AE9BD /* XCRemoteSwiftPackageReference "MarcsMessageWebSocketClient" */;
+			productName = MarcsMessageWebSocketClient;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 10BDF28C2871440E007AE9BD /* Project object */;
 }
