@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		10BDF2982871440E007AE9BD /* MessagingAppChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BDF2972871440E007AE9BD /* MessagingAppChallengeApp.swift */; };
-		10BDF29A2871440E007AE9BD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BDF2992871440E007AE9BD /* ContentView.swift */; };
+		10BDF29A2871440E007AE9BD /* MessageListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BDF2992871440E007AE9BD /* MessageListView.swift */; };
 		10BDF29C28714411007AE9BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10BDF29B28714411007AE9BD /* Assets.xcassets */; };
 		10BDF29F28714411007AE9BD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10BDF29E28714411007AE9BD /* Preview Assets.xcassets */; };
 		10BDF2A928714412007AE9BD /* MessagingAppChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BDF2A828714412007AE9BD /* MessagingAppChallengeTests.swift */; };
 		10BDF2B328714412007AE9BD /* MessagingAppChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BDF2B228714412007AE9BD /* MessagingAppChallengeUITests.swift */; };
 		10BDF2B528714412007AE9BD /* MessagingAppChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BDF2B428714412007AE9BD /* MessagingAppChallengeUITestsLaunchTests.swift */; };
+		10BDF2C32871457E007AE9BD /* MessageListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BDF2C22871457E007AE9BD /* MessageListViewModel.swift */; };
+		10BDF2C828714657007AE9BD /* MessageListDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BDF2C728714657007AE9BD /* MessageListDataManager.swift */; };
+		10BDF2CA287146B7007AE9BD /* MessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BDF2C9287146B7007AE9BD /* MessageModel.swift */; };
+		10BDF2CC28714B3F007AE9BD /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BDF2CB28714B3F007AE9BD /* MessageView.swift */; };
+		10BDF2CF28714C9A007AE9BD /* MockDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BDF2CE28714C9A007AE9BD /* MockDataManager.swift */; };
+		10BDF2D128714FE9007AE9BD /* MessageWebSocketClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BDF2D028714FE9007AE9BD /* MessageWebSocketClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +42,7 @@
 /* Begin PBXFileReference section */
 		10BDF2942871440E007AE9BD /* MessagingAppChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MessagingAppChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10BDF2972871440E007AE9BD /* MessagingAppChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagingAppChallengeApp.swift; sourceTree = "<group>"; };
-		10BDF2992871440E007AE9BD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		10BDF2992871440E007AE9BD /* MessageListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageListView.swift; sourceTree = "<group>"; };
 		10BDF29B28714411007AE9BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10BDF29E28714411007AE9BD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		10BDF2A428714412007AE9BD /* MessagingAppChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MessagingAppChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +50,12 @@
 		10BDF2AE28714412007AE9BD /* MessagingAppChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MessagingAppChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		10BDF2B228714412007AE9BD /* MessagingAppChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagingAppChallengeUITests.swift; sourceTree = "<group>"; };
 		10BDF2B428714412007AE9BD /* MessagingAppChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagingAppChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		10BDF2C22871457E007AE9BD /* MessageListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageListViewModel.swift; sourceTree = "<group>"; };
+		10BDF2C728714657007AE9BD /* MessageListDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageListDataManager.swift; sourceTree = "<group>"; };
+		10BDF2C9287146B7007AE9BD /* MessageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageModel.swift; sourceTree = "<group>"; };
+		10BDF2CB28714B3F007AE9BD /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		10BDF2CE28714C9A007AE9BD /* MockDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDataManager.swift; sourceTree = "<group>"; };
+		10BDF2D028714FE9007AE9BD /* MessageWebSocketClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageWebSocketClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +106,10 @@
 		10BDF2962871440E007AE9BD /* MessagingAppChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				10BDF2CD28714C84007AE9BD /* Mock */,
+				10BDF2C4287145D8007AE9BD /* DataManager */,
+				10BDF2C1287144DC007AE9BD /* MessageList */,
 				10BDF2972871440E007AE9BD /* MessagingAppChallengeApp.swift */,
-				10BDF2992871440E007AE9BD /* ContentView.swift */,
 				10BDF29B28714411007AE9BD /* Assets.xcassets */,
 				10BDF29D28714411007AE9BD /* Preview Content */,
 			);
@@ -125,6 +139,34 @@
 				10BDF2B428714412007AE9BD /* MessagingAppChallengeUITestsLaunchTests.swift */,
 			);
 			path = MessagingAppChallengeUITests;
+			sourceTree = "<group>";
+		};
+		10BDF2C1287144DC007AE9BD /* MessageList */ = {
+			isa = PBXGroup;
+			children = (
+				10BDF2C9287146B7007AE9BD /* MessageModel.swift */,
+				10BDF2992871440E007AE9BD /* MessageListView.swift */,
+				10BDF2C22871457E007AE9BD /* MessageListViewModel.swift */,
+				10BDF2CB28714B3F007AE9BD /* MessageView.swift */,
+			);
+			path = MessageList;
+			sourceTree = "<group>";
+		};
+		10BDF2C4287145D8007AE9BD /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				10BDF2C728714657007AE9BD /* MessageListDataManager.swift */,
+				10BDF2D028714FE9007AE9BD /* MessageWebSocketClient.swift */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		10BDF2CD28714C84007AE9BD /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				10BDF2CE28714C9A007AE9BD /* MockDataManager.swift */,
+			);
+			path = Mock;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +299,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10BDF29A2871440E007AE9BD /* ContentView.swift in Sources */,
+				10BDF2CC28714B3F007AE9BD /* MessageView.swift in Sources */,
+				10BDF29A2871440E007AE9BD /* MessageListView.swift in Sources */,
+				10BDF2D128714FE9007AE9BD /* MessageWebSocketClient.swift in Sources */,
+				10BDF2CA287146B7007AE9BD /* MessageModel.swift in Sources */,
+				10BDF2CF28714C9A007AE9BD /* MockDataManager.swift in Sources */,
 				10BDF2982871440E007AE9BD /* MessagingAppChallengeApp.swift in Sources */,
+				10BDF2C828714657007AE9BD /* MessageListDataManager.swift in Sources */,
+				10BDF2C32871457E007AE9BD /* MessageListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

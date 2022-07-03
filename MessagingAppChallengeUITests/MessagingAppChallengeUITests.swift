@@ -2,7 +2,7 @@
 //  MessagingAppChallengeUITests.swift
 //  MessagingAppChallengeUITests
 //
-//  Created by 24com on 3/7/2022.
+//  Created by Marc Stroebel on 3/7/2022.
 //
 
 import XCTest
@@ -22,13 +22,15 @@ class MessagingAppChallengeUITests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testExample() throws {
-        // UI tests must launch the application that they test.
+    func testMessageListNavigationTitle() throws {
         let app = XCUIApplication()
         app.launch()
-
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        let messageListHeader = app.staticTexts["Message List"]
+        XCTAssert(messageListHeader.exists)
     }
+    
+    // We could put more tests here to test that the initial items in the MockDataManager
+    // are correctly retrieved and displayed in the MessageListView
 
     func testLaunchPerformance() throws {
         if #available(macOS 10.15, iOS 13.0, tvOS 13.0, watchOS 7.0, *) {

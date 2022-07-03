@@ -2,7 +2,7 @@
 //  MessagingAppChallengeTests.swift
 //  MessagingAppChallengeTests
 //
-//  Created by 24com on 3/7/2022.
+//  Created by Marc Stroebel on 3/7/2022.
 //
 
 import XCTest
@@ -18,13 +18,17 @@ class MessagingAppChallengeTests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
+    func testMessageListVieWModelRetrievalOfMessages() throws {
+        let listViewModel = MessageListViewModel(dataManager: MockDataManager())
+        listViewModel.fetchMessages()
+        assert(listViewModel.messages.count == 3)
     }
+    
+    // We could put more test cases here for future functionality of the view model and/or datamanager, such as
+    // - add/create message
+    // - delete message
+    // - archive message
+    // etc
 
     func testPerformanceExample() throws {
         // This is an example of a performance test case.

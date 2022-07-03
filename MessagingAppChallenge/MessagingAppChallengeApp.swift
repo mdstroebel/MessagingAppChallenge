@@ -2,7 +2,7 @@
 //  MessagingAppChallengeApp.swift
 //  MessagingAppChallenge
 //
-//  Created by 24com on 3/7/2022.
+//  Created by Marc Stroebel on 3/7/2022.
 //
 
 import SwiftUI
@@ -11,7 +11,7 @@ import SwiftUI
 struct MessagingAppChallengeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MessageListView()
         }
     }
 }
